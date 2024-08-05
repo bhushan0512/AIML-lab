@@ -24,9 +24,10 @@ def find_second_largest_and_smallest(arr):
         second_smallest = "Not available"
     
     return second_largest, second_smallest
-    
+
 def main():
     arr = [12, 45, 23, 67, 34, 89, 23, 45]
+    print("Original array:", arr)
     second_largest, second_smallest = find_second_largest_and_smallest(arr)
 
     print("Second Largest:", second_largest)

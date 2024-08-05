@@ -1,6 +1,5 @@
 def demonstrate_list_vs_tuple():
     my_list = [1, 2, 3, 4, 5]
-    
     my_tuple = (1, 2, 3, 4, 5)
     
     print("Original List:", my_list)
@@ -15,7 +14,7 @@ def demonstrate_list_vs_tuple():
     try:
         my_tuple[0] = 10
     except TypeError as e:
-        print("Error modifying tuple:", e)
+        print("!!!Error modifying tuple!!!\n", e)
     
     print("Count of 2 in tuple:", my_tuple.count(2))
     print("Index of 3 in tuple:", my_tuple.index(3))

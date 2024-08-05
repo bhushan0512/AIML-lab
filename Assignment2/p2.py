@@ -21,7 +21,7 @@ def main():
     print("4. Divide")
     
     while True:
-        choice = input("Enter choice (1/2/3/4): ")
+        choice = input("Enter your choice: ")
         
         if choice not in ['1', '2', '3', '4']:
             print("Invalid choice. Please choose a valid option.")
@@ -43,8 +43,8 @@ def main():
         elif choice == '4':
             print("Result:", divide(num1, num2))
         
-        next_calculation = input("Do you want to perform another calculation? (yes/no): ").lower()
-        if next_calculation != 'yes':
+        next_calculation = input("Do you want to perform another calculation? (y/n): ").lower()
+        if next_calculation != 'y':
             break
 
 main()
